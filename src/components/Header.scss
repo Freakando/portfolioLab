@@ -1,0 +1,21 @@
+
+.container {
+    max-width: 92.6%;
+    background-color: blue;
+    height: 400px;
+
+
+  .header__wrapper {
+    display: flex;
+    justify-content: flex-end;
+
+
+    .header__box {
+      height: 95px;
+      width: 38.9%;
+      background-color: darkred;
+
+
+    }
+  }
+}
