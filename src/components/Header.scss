@@ -1,21 +1,74 @@
+@import "../App";
 
-.container {
-    max-width: 92.6%;
-    background-color: blue;
-    height: 400px;
+.header__section {
+
+    .header__wrapper {
+      display: flex;
+      width: 100%;
+
+      .homeHeroImage2 {
+        width: 50%;
+      }
+
+      .headerContent__box {
+        width: 47%;
+        margin-top: 4rem;
+
+        .nav__box {
+          display: flex;
+          align-items: flex-end;
+          flex-direction: column;
+
+          .userPanel {
+
+            .usP__button {
+              padding: 1rem 1rem 1rem;
+              margin-right: 2.5rem;
+              background: none;
+              border: none;
+            }
+          }
+        }
 
 
-  .header__wrapper {
-    display: flex;
-    justify-content: flex-end;
 
-
-    .header__box {
-      height: 95px;
-      width: 38.9%;
-      background-color: darkred;
-
-
+      }
     }
   }
+
+.headerTitle__box {
+  display: flex;
+  justify-content: center;
+  margin: 26rem 0 5rem 0;
+
+  .pageTitle {
+    font-size: 3.8rem;
+    text-align: center;
+    letter-spacing: -0.75;
+  }
 }
+
+.decoration__box {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 7.8rem;
+}
+
+.headerButton__box {
+  display: flex;
+  justify-content: space-around;
+
+  .headerButton {
+    text-align: center;
+    font-size: 3.6rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: $color5;
+    background: none;
+    border: 0.2px solid $color4;
+    padding:  1.3rem 0 1.3rem 0;
+    width: 31rem;
+  }
+}
+
+

@@ -1,12 +1,20 @@
 import Header from "./Header";
 import React from "react";
-
+import ThreeColumns from "./ThreeColumns";
+import SimpleSteps from "./SimpleSteps"
 import("./Home.scss");
 
 const Home = () => {
     return (
-        <div className="container">
+        <div>
             <Header />
+            <ThreeColumns />
+            <SimpleSteps />
+            {/*<AboutUs />*/}
+            {/*<WhoWeHelp />*/}
+            {/*<Footer />*/}
+
+
 
         </div>
     )

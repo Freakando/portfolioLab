@@ -1,0 +1,46 @@
+@import "../App";
+
+
+.threeColumns__section {
+  background-color: $color3;
+  height: 38.4rem;
+  width: 100vw;
+
+  .threeColumn__wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+
+    .threeColumn__box {
+      width: 33.4rem;
+      text-align: center;
+      margin-top: 5rem;
+
+
+      .column__text1 {
+        font-size: 9rem;
+        font-weight: 300;
+        color: $color2;
+        margin-bottom: 1rem;
+      }
+
+      .column__text2 {
+        font-size: 1.8rem;
+        text-transform: uppercase;
+        color: $color5;
+        margin-bottom: 2.8rem
+      }
+
+      .column__text3 {
+        font-size: 1.6rem;
+        font-family: $font-alt;
+        color: $color5;
+      }
+    }
+
+  }
+
+
+}

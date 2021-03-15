@@ -1,0 +1,74 @@
+@import "../App";
+
+.simpleSteps__section {
+  width: 100vw;
+
+  .simpleSteps__wrapper {
+    color: $color5;
+    margin-top: 5rem;
+
+    .simpleSteps__titleBox {
+      font-size: 38px;
+      text-align: center;
+    }
+
+    .simpleSteps__decorationBox {
+      display: flex;
+      justify-content: center;
+      margin: 3.8rem 0 3.8rem;
+    }
+
+    .simpleSteps__contentBox {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      background-color: $color1;
+      height: 32.5rem;
+
+      .simpleSteps__column {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: $color5;
+
+        .simpleSteps__image {
+          width: 8.3rem;
+          margin-bottom: 1rem;
+        }
+
+        .simpleSteps__stepTitle {
+          font-size: 1.8rem;
+          text-align: center;
+          margin-bottom: 1rem;
+
+        }
+
+        .small__border {
+          width: 7rem;
+          border-bottom: 0.5px solid $color5;
+          margin-bottom: 2rem;
+        }
+
+        .simpleSteps__text {
+          font-size: 1.6rem;
+        }
+      }
+    }
+    .simpleSteps__buttonBox {
+      display: flex;
+      justify-content: center;
+
+      .simpleSteps__button {
+        margin: 7rem 0 1rem 0;
+        width: 31rem;
+        height: 12rem;
+        font-size: 3.6rem;
+        text-transform: uppercase;
+        background: none;
+  }
+}
+
+}
+}

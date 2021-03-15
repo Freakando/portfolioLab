@@ -1,10 +1,29 @@
+//Reset
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 html {
   font-size: 62.5%;
 }
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&display=swap');
+
+//Colors
+$color1: #F0F1F1;
+$color2: #5E5322;
+$color3: #FAD648;
+$color4: #737373;
+$color5: #3C3C3C;
+
+//Fonts
+$font-base: 'Open Sans', sans-serif;
+$font-alt: 'Merriweather', serif;
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: $font-base;
 }
 
 .App {
@@ -12,11 +31,7 @@ body {
   max-width: 1900px;
 }
 
-*{
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
+
 
 //.container {
 //  max-width: 92.6%;
