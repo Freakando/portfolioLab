@@ -2,6 +2,7 @@ import Header from "./Header";
 import React from "react";
 import ThreeColumns from "./ThreeColumns";
 import SimpleSteps from "./SimpleSteps"
+import AboutUs from "./AboutUs";
 import("./Home.scss");
 
 const Home = () => {
@@ -10,7 +11,7 @@ const Home = () => {
             <Header />
             <ThreeColumns />
             <SimpleSteps />
-            {/*<AboutUs />*/}
+            <AboutUs />
             {/*<WhoWeHelp />*/}
             {/*<Footer />*/}
 

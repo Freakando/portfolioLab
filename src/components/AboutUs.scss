@@ -1,0 +1,63 @@
+@import "../App";
+
+.aboutUs {
+
+  &__container {
+    width: 100%;
+    background-color: $color1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+    &__article {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0 4% 0 7%;
+
+
+      &--title {
+        text-align: center;
+        font-size: 3.8rem;
+        font-weight: 400;
+        margin-bottom: 4%;
+      }
+
+      &--decoration {
+        width: 25.3rem;
+        margin-bottom: 6.2%;
+      }
+
+      &__textBox {
+        width: 65.7%;
+        margin-bottom: 4.5%;
+
+        &--text {
+          text-align: center;
+          font-size: 3rem;
+        }
+      }
+
+      &__signature {
+        width: 70%;
+        display: flex;
+        justify-content: flex-end;
+
+        &--image {
+        }
+      }
+    }
+
+    &__pictureBox {
+
+      &--picture {
+        max-width: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+}
+
+
