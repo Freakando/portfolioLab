@@ -1,0 +1,102 @@
+@import "../App";
+
+.whoWeHelp {
+  margin-top: 7rem;
+
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    &__titleBox {
+      margin-bottom: 3.9rem;
+      &__title {
+        font-size: 3.8rem;
+        color: $color5;
+
+      }
+    }
+
+    &__decoration {
+      width: 25.3rem;
+      margin-bottom: 5.8rem;
+    }
+
+    &__buttons {
+      width: 65%;
+      display: flex;
+      justify-content: space-around;
+      margin-bottom: 6.9rem;
+
+
+      &--button {
+        font-size: 2.4rem;
+        color: $color5;
+        background: none;
+        border: 0.2px solid $color5;
+        width: 20.8rem;
+        height: 7.9rem;
+      }
+    }
+
+    &__article {
+      width: 45%;
+      margin-bottom: 6.6rem;
+
+      &--text {
+        text-align: center;
+        font-size: 2.2rem;
+        color: $color5;
+      }
+    }
+
+    &__organisationsBox {
+      width: 85%;
+
+      &__organisation {
+        display: flex;
+        justify-content: space-between;
+        font-family: $font-alt;
+        color: $color5;
+        border-bottom: 0.5px solid $color5;
+        margin-bottom: 3.4rem;
+
+        &__leftColumn {
+          &--name {
+            font-size: 2.6rem;
+          }
+
+          &--text {
+            font-size: 1.8rem;
+          }
+        }
+
+        &__rightColumn {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 1.8rem;
+          height: 6.1rem;
+        }
+      }
+    }
+    &__pageNumber {
+      display: flex;
+      justify-content: space-around;
+      margin: 6.3rem 0 8rem 0;
+
+
+      width: 13%;
+      &--button {
+        width: 4rem;
+        height: 5rem;
+        background: none;
+        border: 0.5px solid $color5;
+        font-size: 1.8rem;
+      }
+    }
+  }
+}

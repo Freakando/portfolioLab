@@ -3,6 +3,9 @@ import React from "react";
 import ThreeColumns from "./ThreeColumns";
 import SimpleSteps from "./SimpleSteps"
 import AboutUs from "./AboutUs";
+import WhoWeHelp from "./WhoWeHelp";
+import WhoWeHelp2 from "./WhoWeHelp2"
+import Footer from "./Footer"
 import("./Home.scss");
 
 const Home = () => {
@@ -12,8 +15,9 @@ const Home = () => {
             <ThreeColumns />
             <SimpleSteps />
             <AboutUs />
-            {/*<WhoWeHelp />*/}
-            {/*<Footer />*/}
+            <WhoWeHelp />
+            {/*<WhoWeHelp2 />*/}
+            <Footer />
 
 
 

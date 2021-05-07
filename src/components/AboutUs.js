@@ -21,10 +21,9 @@ function AboutUs() {
                     </div>
                 </div>
                 <div className="aboutUs__container__pictureBox">
-                    <img className="aboutUs__container__pictureBox--picture" src={People}/>;
+                    <img className="aboutUs__container__pictureBox--picture" src={People}/>
                 </div>
             </div>
-
         </section>
     );
 }
